@@ -193,8 +193,8 @@ button:hover{
 	min-height: 400px;
 }
 .card{
-	height: 365px;
-	width: 335px;
+	height: 340px;
+	width: 190px;
 	padding: 20px 35px;
 	background: #191919;
 	border-radius: 20px;
@@ -202,7 +202,11 @@ button:hover{
 	position: relative;
 	overflow: hidden;
 	text-align: center;
+	box-shadow: 0 0 1px rgb(254, 255, 255);
 }
+
+
+
 .card i{
 	font-size: 25px;
 	display: block;
@@ -211,6 +215,12 @@ button:hover{
 	color: rgb(0,255,255);
 
 }
+
+.viewandgithub a{
+	color: aqua;
+	/* text-decoration: none; */
+}
+
 h5{
 	color: white;
 	font-size: 23px;
