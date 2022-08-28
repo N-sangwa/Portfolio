@@ -19,8 +19,8 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 45px;
-	padding-left: 8%;
+	padding-top: 20px;
+	/* padding-left: 8%; */
 	padding-right: 10%;
 }
 .logo{
@@ -28,6 +28,7 @@ nav{
 	font-size: 35px;
 	letter-spacing: 1px;
 	cursor: pointer;
+	margin-left: 5%;
 }
 span{
 	color: rgb(0,255,255);
