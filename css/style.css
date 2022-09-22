@@ -86,13 +86,13 @@ transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s))
 .intro-content{
 	position: relative;
 	top: 55%;
-	left:8%;
+	left:7%;
 	transform: translateY(-50%);
 	display: flex;
 }
 
 #intro-image{
-	position: relative;
+	position: sticky;
 	height: 350px;
 	margin-left: 13%;
 	margin-bottom: 15%;
