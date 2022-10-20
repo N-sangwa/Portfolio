@@ -62,7 +62,7 @@ a{
     display: flex;
     padding: 1rem;
     justify-content: space-evenly;
-    margin: 0.5rem 1rem 1rem 51rem;
+    margin-left: 90%;
     
 }
 
@@ -85,11 +85,7 @@ a{
     padding: 1rem;
 }
 
-/* .cards{
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
-} */
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -140,7 +136,7 @@ h3 a{
 
 }
 #resume{
-    margin-left: 2rem;
+
     background-color: white;
     text-decoration: none;
     border-radius: 0.65rem;
@@ -186,7 +182,6 @@ h3 a{
 }
 
 
-/* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
     html,body {
         margin: 0;
@@ -244,7 +239,6 @@ h3 a{
     }
   }
   
-  /* On screens that are 600px or less, set the background color to olive */
   @media screen and (max-width: 600px) {
     html,body {
       margin: 0;
