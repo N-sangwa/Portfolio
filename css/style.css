@@ -1,339 +1,287 @@
 html,body {
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-	overflow-x:hidden;
-	font-family: 'Josefin Sans', sans-serif;
-}
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    background-color: rgb(7, 72, 66);
 
-
-.home{
-	height: 100vh;
-	width: 100%;
-	background-size: cover;
-	background-position: center;
-    background-color: #000;
-}
-
-nav{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding-top: 20px;
-	/* padding-left: 8%; */
-	padding-right: 10%;
-}
-.logo{
-	color: white;
-	font-size: 35px;
-	letter-spacing: 1px;
-	cursor: pointer;
-	margin-left: 5%;
-}
-span{
-	color: rgb(0,255,255);
-}
-nav ul li{
-	list-style-type: none;
-	display: inline-block;
-	padding: 10px  25px;
-}
-nav ul li a{
-	color: white;
-	text-decoration: none;
-	font-weight: bold;
-	text-transform: capitalize;
-}
-nav ul li a:hover{
-	color: rgb(0,255,255);
-	transition: .4s;
-}
-
-
-#cv-btn{
-	background-color:  transparent;
-	border: 2px solid rgb(0,255,255);
-	border-radius: 0px 0px 10px 10px;
-	padding: 13px 30px;
-	
-	
-}
-
-#resume-txt{
-	color: rgb(255, 248, 248);
-	font-size: 15px;
-	text-decoration: none;
-}
-
-#resume-txt:hover{
-font-size: 20px;
-	--c: #f0f0f0; 
-	padding-block: var(--b);
-	transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s)); 
   }
-.btn{
-	background-color:  transparent;
-	border: 2px solid rgb(0,255,255);
-	border-radius: 0px 0px 10px 10px;
-}
-.btn:hover{
-	
-font-size: 20px;
---c: #f0f0f0; 
-padding-block: var(--b);
-transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s)); 
-}
-.intro-content{
-	position: relative;
-	top: 55%;
-	left:7%;
-	transform: translateY(-50%);
-	display: flex;
+
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
 }
 
-#intro-image{
-	height: 350px;
-	margin-left: 13%;
-	margin-bottom: 15%;
-	border-radius: 2%;
-	
+.container-one{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
-#about-img{
-position: relative;
-height: 350px;
-border-radius: 2%;
+.container-one img{
+width: 10.5rem;
+height: 10rem;
+border-radius: 50%;
+border: solid salmon;
+margin: 3rem 1rem -5rem 1rem;
 }
 
-h1{
-	color: white;
-	margin: 20px 0px 20px;
-	font-size: 75px;
-}
-h3{
-	color: white;
-	font-size: 25px;
-	margin-bottom: 50px;
-}
-h4{
-	color: #fcfc;
-	letter-spacing: 2px;
-	font-size: 20px;
-}
-.newslatter form{
-	width: 380px;
-	max-width: 100%;
-	position: relative;
+.intro{
+    text-align: center;
+    background-color: rgb(238, 234, 241);
+    margin: 0rem 1rem 3.1rem 1rem;
+    height: 11rem;
+    padding-top: 5rem;
+    border-radius: 1rem 1rem 0rem 0rem;
 }
 
-.about{
-	width: 100%;
-	padding: 100px 0px;
-	background-color: #191919;
+span{
+ /* text-shadow: 0.1rem 0.1rem; */
+ font-weight: 600;
+ font-size: 1.1rem;
 }
-.about img{
-	height: auto;
-	width: 430px;
-    margin-top:1%;
-}
-.about-text{
-	width: 550px;
-}
-.main{
-	width: 1130px;
-	max-width: 95%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-}
-.about-text h2{
-	color: white;
-	font-size: 75px;
-	text-transform: capitalize;
-	margin-bottom: 20px;
-}
-.about-text h5{
-	color: white;
-	letter-spacing: 2px;
-	font-size: 22px;
-	margin-bottom: 25px;
-	text-transform: capitalize;
-}
-.about-text p{
-	color: #fcfc;
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 18px;
-	margin-bottom: 45px;
+hr{
+    width: 10rem;
+
 }
 
-button:hover{
-	background-color: transparent;
-	border: 2px solid rgb(0,255,255);
-	cursor: pointer;
+a{
+    color: black;
+    font-size: larger;
+    padding: 0.5rem;
+
 }
 
-.projects{
-	background: #101010;
-	width: 100%;
-	padding: 100px 0px;
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
 }
-.title h2{
-	color: white;
-	font-size: 75px;
-	width: 1130px;
-	margin: 30px auto;
-	text-align: center;
+
+.navandlogo{
+    display: flex;
 }
-.box{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 400px;
+
+.projects-and-resume{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    margin: 0.5rem 3rem 1rem 49rem;
+    
 }
+
 .card{
-	height: 340px;
-	width: 190px;
-	padding: 20px 35px;
-	background: #191919;
-	border-radius: 20px;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-	box-shadow: 0 0 1px rgb(254, 255, 255);
+    background-color: white;
+    width: 15rem;
+    height: 20rem;
+    margin: 4rem 1rem 4rem 1rem;
+    border-radius: 0.65rem;
+    box-shadow: 0 0 50px rgba(11, 11, 11, 0.726); 
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card p{
+    /* text-align: justify; */
+    padding: 1rem;
+}
+
+.cards{
+    display: flex;
+}
+
+.code{
+text-align:center;
+margin: 1rem;
+color: black;
+font-weight: bold;
+box-shadow: 0 0 10px rgba(11, 11, 11, 0.726); 
+
+
+}
+
+.project-link{
+    text-align: center;
+}
+
+.projects-title{
+    text-align: center;
+    color: salmon;
 }
 
 
-
-.card i{
-	font-size: 25px;
-	display: block;
-	text-align: center;
-	margin: 25px 0px;
-	color: rgb(0,255,255);
-
-}
-
-.viewandgithub a{
-	color: aqua;
-	text-decoration: none;
-	/* text-decoration: none; */
-}
-
-h5{
-	color: white;
-	font-size: 23px;
-	margin-bottom: 15px;
-}
-.pra p{
-	color: #fcfc;
-	font-size: 16px;
-	line-height: 27px;
-	margin-bottom: 25px;
-}
-.card .button{
-	background-color:rgb(0,255,255);
-	color: rgb(0, 0, 0);
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 9px 22px;
-	border-radius: 30px;
-	transition: .4s; 
-}
-.card .button:hover{
-	background-color: transparent;
-	border: 2px solid rgb(0,255,255);
-	color: white;
-	cursor: pointer;
+h3 a{
+    text-decoration: none;
+    color: rgb(20, 91, 95);
+    border: solid salmon;
+    border-radius: 0.65rem;
 }
 
 
+#projects{
+    background-color: white;
+    margin: 0rem 0rem 0rem -5rem;
+    text-decoration: none;
+    border-radius: 0.65rem;
+    font-weight: 510;
+    box-shadow: 0 0 5px salmon; 
 
 
-#tipcalc{
-	align-items: center;
-	justify-content: center;
-	width: 80%;
-	margin-bottom: 5%;
-	height: 170px;
+}
+#resume{
+    margin-left: 2rem;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 0.65rem;
+    font-weight: 510;
+    box-shadow: 0 0 5px salmon; 
+
+
 }
 
-
-
-footer{
-	position: relative;
-	width: 100%;
-	height: 400px;
-	background-color: #191919;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.logo{
+    margin: 1rem 1rem 1rem 1rem;
+    color: white;
+    font-size: 2rem;
 }
 
-footer p:nth-child(1){
-	font-size: 30px;
-	color: white;
-	margin-bottom: 20px;
-	font-weight: bold;
+.lastline{
+    color: black;
+    width: 80%;
+    height: 0.001rem;
+
 }
 
-.social{
-	display: flex;
-}
-.social a{
-	width: 45px;
-	height: 45px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background:  rgb(0,255,255);
-	border-radius: 50%;
-	margin: 22px 10px;
-	text-decoration: none;
-	font-size: 20px;
-	
-}
-.social a:hover{
-	transform: scale(1.3);
-	transition: .3s;
+.thanks{
+    text-align: center;
+    color: salmon;
 }
 
-#socials-img{
-	width: 25px;
+#stack{
+    font-weight: 550;
+    font-size: 0.7rem;
+    color: rgb(0, 9, 12);
+    margin-left: 8rem;
 }
 
-
-.end{
-	position: absolute;
-	color:rgb(0,255,255);
-	bottom: 35px;
-	font-size: 14px; 
-}
-
-@media (max-width:450px){
-
-    html{
-        font-size: 50%;
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    html,body {
+        margin: 0;
+        padding: 0;
+        overflow-x:hidden;
+      }
+  
+  
+        .cards{
+            display: inline;
+  
+          }
+    
+  
+  .card{
+      background-color: white;
+      width: 15rem;
+      height: 20rem;
+      margin: 0 auto;
+          /* margin: 4rem 1rem 4rem 1rem; */
+      border-radius: 0.65rem;
+      box-shadow: 0 0 50px rgba(11, 11, 11, 0.726); 
+  }
+    
+    .navandlogo{
+        display: inline;
+    }
+    
+    .projects-and-resume{
+        display: inline;
+        text-align: center;
+        /* padding: 1rem; */
+        /* justify-content: space-evenly; */
+        /* margin: 0.5rem 3rem 1rem 49rem; */
+        
+    }
+    
+    #projects{
+        background-color: white;
+        /* margin: 0rem 0rem 0rem -5rem; */
+        text-decoration: none;
+        border-radius: 0.65rem;
+        font-weight: 510;
+        box-shadow: 0 0 5px salmon;
+    
+    }
+    #resume{
+        /* margin-left: 2rem; */
+        background-color: white;
+        text-decoration: none;
+        border-radius: 0.65rem;
+        font-weight: 510;
+        box-shadow: 0 0 5px salmon; 
+  
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    html,body {
+      margin: 0;
+      padding: 0;
+      overflow-x:hidden;
     }
 
-    header{
-        width:100%;
-    }
 
-    .projects{
-        padding-right: 0;
-    }
+      .cards{
+          display: inline;
 
+        }
+  
+
+.card{
+    background-color: white;
+    width: 15rem;
+    height: 20rem;
+    margin: 0 auto;
+        /* margin: 4rem 1rem 4rem 1rem; */
+    border-radius: 0.65rem;
+    box-shadow: 0 0 50px rgba(11, 11, 11, 0.726); 
 }
+  
+  .navandlogo{
+      display: inline;
+  }
+  
+  .projects-and-resume{
+      display: inline;
+      text-align: center;
+      /* padding: 1rem; */
+      /* justify-content: space-evenly; */
+      /* margin: 0.5rem 3rem 1rem 49rem; */
+      
+  }
+  
+  #projects{
+      background-color: white;
+      /* margin: 0rem 0rem 0rem -5rem; */
+      text-decoration: none;
+      margin-left: 1rem;
+      border-radius: 0.65rem;
+      font-weight: 510;
+      box-shadow: 0 0 5px salmon;
+  
+  }
+  #resume{
+      margin-left: 5rem;
+      /* margin-left: 1rem; */
+      background-color: white;
+      text-decoration: none;
+      border-radius: 0.65rem;
+      font-weight: 510;
+      box-shadow: 0 0 5px salmon; 
 
-/* .fa-linkedin{
-	color: #000;
-} */
-
-
- 
-
+  }
+    }
+  

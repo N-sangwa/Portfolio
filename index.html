@@ -1,168 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Portfolio website</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cb016f69f1.js" crossorigin="anonymous"></script>
+    <title>Nadine's Portifolio</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-	<!----home Section ---->
+  
+    <div class="navandlogo">
+        <div class="logo">
+            <p>NS</p>
+        </div>
 
-<div class="home"> 
-		<nav>
-			<h2 class="logo">NS</h2>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<!-- <li><a href="#">Skills</a></li> -->
-				<li><a href="#contact">Contact me</a></li>
-			</ul>
-		</nav>
+        <div class="projects-and-resume">
+            <div class="projects">
+                <a href="#myprojects" id="projects" target="_blank">Projects</a>
+            </div>
+        
+            <br>
+            <br>
 
-	<div id="intro-content" class="intro-content">
-			<br> <br> <br>
-		<div class="intro">
-		<div>
-			<h4>Hello, my name is</h4>
-			<h1>Nadine <span>Sangwa</span></h1>
-			<h3>I am a Software Developer.</h3>
-		</div>
+            <div class="resume">
+                <a href="/Images/Nadine Sangwa - Resume.pdf" id="resume" target="_blank" >Resume</a>
+            </div>
 
-		<div>
-		    <button id="cv-btn" > <a id="resume-txt" href="/Images/Nadine Sangwa - Resume.pdf" target="_blank" >My Resume</a> </button>
-		</div>
-	   </div>	
-		<img id="intro-image" src="/Images/WhatsApp Image 2022-08-15 at 9.01.37 AM.jpeg" alt="">	
-	</div>
-</div>
+        </div>
+    </div>
 
-	<!----About---->
-	<section id="about" class="about">
-		<div class="main">
-			<img id="about-img" src="/Images/favDevGirl.png">
-			<div class="about-text">
-				<h2>About Me</h2>
-				<h5> <span>Software Developer</span></h5>
-				<p>I am an entry-level software developer with knowledge in User Experience Research, UI/UX Design, Web Development using JavaScript(Reactjs) and Python(Django), Mobile Development(Kotlin), and the Internet of things. I am enthusiastic about incorporating empathy into technology and I am excited to work with people and computers to build the future. </p>
-				<!-- <button type="button">More</button> -->
-			</div>
-		</div>
-	</section>
+    <div class="container-one">
+        <div>
+            <img src="/Images/WhatsApp Image 2022-08-15 at 9.01.37 AM.jpeg" alt="">
+        </div>
+    </div>
 
-	<!-----Projects----------->
-	<div id="projects" class="projects">
-		<div class="title">
-			<h2>My Projects</h2>
-		</div>
+    <div class="intro">
+        <p>Hello!</p>
+        <p>My name is <span>Nadine Sangwa</span></p>
+        <p>Software Developer <span>|</span> UI/UX Designer</p>
+        <hr>
+        <div class="socials">
+            <div>
+                <a href="https://www.linkedin.com/in/nadine-sangwa-949842233/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div>
+                <a href="https://github.com/N-sangwa?tab=repositories" target="_blank" ><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div>
+                <a href="https://twitter.com/Enidan_S" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
 
-		<div class="box">
-			<div class="card">
-				<i class="fas fa-bars"></i>
-				<h5>E-commerce Website</h5>
-				<div class="pra">   
-					<p>A Website that allows buying and selling of different supermarket products online.</p>
-					
-					<div class="viewandgithub">
-					<a href="https://nadine-e-store.netlify.app/" target="_blank" >View the project</a>
-					 <br>
-					 <br>
-					<a href="https://github.com/N-sangwa/E-store" target="_blank" >github</a>
-				    </div>
+    </div>
 
-						<!-- <a class="button" href="#">Read More</a> -->
+    <div id="myprojects" class="projects-title">
+        <h1>My Projects</h1>
+    </div>
 
-					</p>
-				</div>
-			</div>
+    <hr class="projects-underline" >
 
-			<div class="card">
-				<i class="fas fa-bars"></i>
-				<h5>Weather App</h5>
-				<div class="pra">
-					<p>An application that displays weather information and forecasts of different locations.</p>
+    <div class="projects-container">
+        <div class="cards">
+            <div class="card">
+                  <div class="code">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                <p>
+                    <span> E-store</span> <br> <br>
+                    A website that allows users including buyers and sellers to be able to purchase or sell different
+                    goods/products online. 
+                    <br> <span id="stack" >.HTML5/CSS3</span>    
 
-					<div class="viewandgithub">
-						<a href="https://nadine-weather-app.netlify.app/" target="_blank" >View the project</a>
-						 <br>
-						 <br>
-						<a href="https://github.com/N-sangwa/Weather_App" target="_blank" >github</a>
-						</div>
+                </p>
+                <div class="project-link">
+                    <h3><a href="https://nadine-e-store.netlify.app/" target="_blank">View</a> </h3>
+                </div>
+            </div>
 
-				</div>
-			</div>
+            <div class="card">
+                <div class="code">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                <p>
+                    <span>Weather App</span> <br> <br>
+                    A weather app that allows the user to be aware of current weather
+                    conditions of a certain location upon search.
+                    <br> <span id="stack" >.JavaScript</span>    
 
-
-			<div class="card">
-				<i class="fas fa-bars"></i>
-				<h5>Login-Form</h5>
-				<div class="pra">
-					<p>A login form project using Reactjs </p>
-
-					<div class="viewandgithub">
-						<!-- <a href=" " target="_blank " >View the project</a> -->
-						 <!-- <br> -->
-						 <br>
-						<a href="https://github.com/N-sangwa/Login-form-React" target="_blank" >github</a>
-						</div>
-
-					<!-- <p style="text-align: center;"> -->
-						<!-- <a class="button" href="#">Read More</a> -->
-					</p>
-				</div>
-			</div>
-
-		
+                </p>
             
-			<div class="card">
-				<i class="fas fa-bars"></i>
-				<h5>Digital Wallet</h5>
-				<div class="pra">
-					<p> A Digital Wallet project using Python - Django framework</p>
-	
-					
-					<div class="viewandgithub">
-						<!-- <a href="" target="_blank" >View the project</a> -->
-						 <!-- <br> -->
-						 <br>
-						<a href="https://github.com/N-sangwa/Digital_Wallet" target="_blank" >github</a> 
-						
-						</div>
+                <div class="project-link" >
+                    <h3> <a href="https://nadine-weather-app.netlify.app/" target="_blank">View</a> </h3>
+                </div>
+            </div>
 
-					</p>
-				</div>
-			</div>
+            <div class="card">
+                <div class="code">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                <p>
+                    <span> Netflix Clone</span> <br> <br>
+                    A streaming service (Netflix clone for practice)
+                    that offers a wide variety of TV shows, movies, and documentaries, online.
+                    <br> <span id="stack" >.JavaScript</span>    
+                </p>
+                <div class="project-link" >
+                    <h3><a href="https://nadine-netflixclone.netlify.app/" target="_blank">View</a></h3>
+                </div>
+            </div>
 
-		</div>
+            <div class="card">
+                <div class="code">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                <p>
+                    <span> Digital Wallet</span> <br> <br>
+                    A Digital wallet that allows online transaction instead of cash, rewards users and allows them to request for a loan.
+                <br> <span id="stack" >.Python</span>
+                </p>
+                    
+                    <div class="project-link" >
+                    <h3><a href="https://github.com/N-sangwa/Digital_Wallet" target="_blank">View</a></h3>
+                </div>
+            </div>
 
-		
-	</div>
 
+        </div>
 
+    </div>
 
+ <hr class="lastline" >
 
-	</div>
- 
-	<!------blank------>
-	<!--<div class="contact-me">
-		<p>Have not yet figured out the right words to use here</p>
-		<a class="button" href="#">###</a>
-	</div> -->
+ <div class="thanks">
+ <p>Thank You!</p>
+ </div>
 
-	<!------footer-----my socials and github--------->
-	<footer id="contact">
-		<p>Nadine Sangwa</p>
-		<div class="social">
-			<a href="https://www.linkedin.com/in/nadine-sangwa-949842233/" target="_blank"><img id="socials-img" src="/Images/linkedin-in-brands.svg" alt="link to my linkedin account"> </a>
-			<a href="https://github.com/N-sangwa?tab=repositories" target="_blank" > <img id="socials-img" src="/Images/github-brands.svg" alt="link to my github account"> </a>
-			<a href="https://twitter.com/Enidan_S" target="_blank" > <img id="socials-img" src="/Images/twitter-brands.svg" alt="link to my ... account">    </a>
-		</div>
-		<p class="end">Nadine Sangwa</p>
-	</footer>
 </body>
+
 </html>
