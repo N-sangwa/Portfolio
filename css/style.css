@@ -68,9 +68,10 @@ a{
 
 .card{
     background-color: white;
-    width: 15rem;
-    height: 20rem;
-    margin: 4rem 1rem 4rem 1rem;
+    /* width: 15rem; */
+    /* height: 20rem; */
+    margin:0.5rem;
+    flex: 0 1 calc(25% - 1em); 
     border-radius: 0.65rem;
     box-shadow: 0 0 50px rgba(11, 11, 11, 0.726); 
 }
@@ -84,11 +85,21 @@ a{
     padding: 1rem;
 }
 
-.cards{
+/* .cards{
     display: flex;
     margin: 0 auto;
     width: 100%;
-}
+} */
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+      
+     .card {
+         /* flex: 0 1 24%; */
+     }
+
 
 .code{
 text-align:center;
