@@ -91,6 +91,7 @@ a{
 
 .cards{
     display: flex;
+    /* width: 100%; */
 }
 
 .code{
@@ -166,6 +167,13 @@ h3 a{
     color: rgb(0, 9, 12);
     margin-left: 8rem;
 }
+
+
+.projects-container{
+    text-align: center;
+
+}
+
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
