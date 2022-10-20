@@ -87,8 +87,7 @@ a{
 .cards{
     display: flex;
     margin: 0 auto;
-
-    /* width: 100%; */
+    width: 100%;
 }
 
 .code{
@@ -170,6 +169,8 @@ h3 a{
     text-align: center;
     /* padding:2rem; */
     margin: 0 auto;
+    width: 100%;
+
 
 }
 
