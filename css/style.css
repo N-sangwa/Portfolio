@@ -93,7 +93,8 @@ a{
 .card {
     flex: 1 0 5rem;
     box-sizing: border-box;
-    margin: 1rem .25em;
+    margin: 2rem .24em;
+    padding: 0rem 0rem 3rem 0rem;
 }
 
 .code{
@@ -228,7 +229,7 @@ h3 a{
     
     }
     #resume{
-        /* margin-left: 2rem; */
+        margin-left: 40rem;
         background-color: white;
         text-decoration: none;
         border-radius: 0.65rem;
@@ -255,8 +256,8 @@ h3 a{
 .card{
     background-color: white;
     width: 15rem;
-    height: 20rem;
-    margin: 0 auto;
+    /* height: 20rem; */
+    /* margin: 0 auto; */
         /* margin: 4rem 1rem 4rem 1rem; */
     border-radius: 0.65rem;
     box-shadow: 0 0 50px rgba(11, 11, 11, 0.726); 
@@ -286,7 +287,7 @@ h3 a{
   
   }
   #resume{
-      margin-left: 5rem;
+      margin-left: 15rem;
       /* margin-left: 1rem; */
       background-color: white;
       text-decoration: none;
